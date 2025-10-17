@@ -1,1 +1,50 @@
 npm create vite@latest
+
+REPOSITORIO GITHUB
+
+Iniciar Repositorio local:
+"git init"
+
+Cambiar el nombre de master a main:
+"git branch -M main"
+
+Eliminar credenciales de otros usuarios:
+"Win + S"
+Escribir administrador de credenciales 
+Seleccionar Credenciales de Windows y luego buscar las cuentas GitHub y eliminas las credenciales.
+Luego de  eliminar las credenciales
+
+Cnfigurar usuario local de Git:
+git config user.email "suEmail"
+git config user.name "suNombre"
+
+Ahora agregar los archivos del proyecto
+"git add ."
+
+Realizar un commit descriptivo de la version a subir
+"git commit -m "primera subida"
+
+Enlazar el repositorio de la nube con el local:
+git remote add origin https://github.com/valen206/React_curso.git
+git push -u origin main
+
+Luego saldra que debe iniciar sesión con el navegador:
+Inicie sesión con sus credenciales del GitHub.
+Listo actualiza el repositorio de la nube.
+
+Comprobar el estado del proyecto:
+git status
+(si aparece en algo rojo significa que el archivo es nuevo o se ha modificado).
+
+Comando para actualizar el repositorio conla version local:
+git status
+git add .
+git commit -n "nombre de la version o descripcion del commit"
+git push
+
+Crear ramas:
+git checkout -b "nombre de la rama"
+git switch -c nombre de la rama
+git push origin nombre de la rama
+
+
